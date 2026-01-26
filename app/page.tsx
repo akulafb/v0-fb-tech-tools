@@ -167,7 +167,7 @@ export default function Home() {
               <Sparkles className="h-8 w-8 lg:h-10 lg:w-10 text-primary-foreground" />
             </div>
             <h1 className="text-6xl font-black tracking-tight text-foreground sm:text-7xl lg:text-8xl">
-              AI Tool Repertoire
+              FB's AI Tool Repertoire
             </h1>
           </div>
         </div>
