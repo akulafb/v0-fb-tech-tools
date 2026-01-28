@@ -28,6 +28,13 @@ const toolCategories = [
         url: "https://trychroma.com",
         logo: "https://img.logo.dev/trychroma.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
+      },
+      {
+        name: "Prisma",
+        description: "Next-generation Node.js and TypeScript ORM for type-safe database access",
+        url: "https://prisma.io",
+        logo: "https://img.logo.dev/prisma.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-slate-500/20 to-gray-500/20"
       }
     ]
   },
