@@ -41,7 +41,7 @@ export function ToolCard({ name, description, url, logo }: ToolCardProps) {
             <h3 className="text-sm font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
               {name}
             </h3>
-            <p className="text-[11px] leading-snug text-muted-foreground line-clamp-2">
+            <p className="text-[11px] leading-snug text-muted-foreground">
               {description}
             </p>
           </div>
