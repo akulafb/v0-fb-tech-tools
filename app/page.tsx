@@ -28,6 +28,13 @@ const toolCategories = [
         url: "https://trychroma.com",
         logo: "https://img.logo.dev/trychroma.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
+      },
+      {
+        name: "Prisma",
+        description: "DB data-access layer using typesafe JS/TS instead of SQL",
+        url: "https://prisma.io",
+        logo: "https://img.logo.dev/prisma.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-slate-500/20 to-gray-500/20"
       }
     ]
   },
@@ -167,7 +174,7 @@ export default function Home() {
               <Sparkles className="h-8 w-8 lg:h-10 lg:w-10 text-primary-foreground" />
             </div>
             <h1 className="text-6xl font-black tracking-tight text-foreground sm:text-7xl lg:text-8xl">
-              FB's AI Tool Repertoire
+              FB's Tech Tools
             </h1>
           </div>
         </div>
