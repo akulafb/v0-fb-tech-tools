@@ -1,13 +1,35 @@
 import { ToolCard } from "@/components/tool-card"
-import { Sparkles, Database, Workflow, Palette, Cloud, Code } from "lucide-react"
+import { Sparkles, Database, Workflow, Palette, Cloud, Code, Lock } from "lucide-react"
 
 const toolCategories = [
+  {
+    title: "Authentication",
+    icon: Lock,
+    description: "User authentication and identity management solutions",
+    color: "from-indigo-500/20 to-blue-500/20",
+    tools: [
+      {
+        name: "Clerk",
+        description: "Complete user management and authentication with beautiful pre-built components",
+        url: "https://clerk.com",
+        logo: "https://img.logo.dev/clerk.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-indigo-500/20 to-violet-500/20"
+      }
+    ]
+  },
   {
     title: "Storage & Databases",
     icon: Database,
     description: "Data storage, management, and retrieval solutions",
     color: "from-blue-500/20 to-cyan-500/20",
     tools: [
+      {
+        name: "Neon",
+        description: "Serverless PostgreSQL with autoscaling, branching, and bottomless storage",
+        url: "https://neon.tech",
+        logo: "https://img.logo.dev/neon.tech?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
+      },
       {
         name: "Supabase",
         description: "Open-source Firebase alternative with PostgreSQL database and authentication",
