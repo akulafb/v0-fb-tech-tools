@@ -1,5 +1,5 @@
 import { ToolCard } from "@/components/tool-card"
-import { Sparkles, Database, Workflow, Palette, Cloud, Code, Lock } from "lucide-react"
+import { Sparkles, Database, Workflow, Palette, Cloud, Code, Lock, Activity } from "lucide-react"
 
 const toolCategories = [
   {
@@ -180,6 +180,21 @@ const toolCategories = [
         url: "https://railway.app",
         logo: "https://img.logo.dev/railway.app?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-purple-500/20 to-fuchsia-500/20"
+      }
+    ]
+  },
+  {
+    title: "AI Monitoring & Observability",
+    icon: Activity,
+    description: "Monitor, trace, and analyze AI model behavior and performance",
+    color: "from-violet-500/20 to-fuchsia-500/20",
+    tools: [
+      {
+        name: "Langfuse",
+        description: "Open-source LLM observability platform for tracing, evals, and prompt management",
+        url: "https://langfuse.com",
+        logo: "https://img.logo.dev/langfuse.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
       }
     ]
   }
