@@ -7,10 +7,9 @@ interface ToolCardProps {
   url: string
   logo: string
   bgColor?: string
-  glowColor?: string
 }
 
-export function ToolCard({ name, description, url, logo, glowColor = "rgba(99,102,241,0.15)" }: ToolCardProps) {
+export function ToolCard({ name, description, url, logo }: ToolCardProps) {
   return (
     <a
       href={url}
@@ -18,18 +17,7 @@ export function ToolCard({ name, description, url, logo, glowColor = "rgba(99,10
       rel="noopener noreferrer"
       className="group block h-full"
     >
-      <Card
-        className="h-full border border-border bg-card transition-all duration-300 hover:-translate-y-1 overflow-hidden"
-        style={{
-          boxShadow: `0 0 12px 2px ${glowColor}, 0 0 4px 1px ${glowColor}`,
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.boxShadow = `0 0 24px 6px ${glowColor}, 0 0 8px 2px ${glowColor}`
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.boxShadow = `0 0 12px 2px ${glowColor}, 0 0 4px 1px ${glowColor}`
-        }}
-      >
+      <Card className="h-full border border-border bg-card transition-all duration-300 hover:border-primary hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1 overflow-hidden">
         <div className="flex h-full flex-col items-center text-center p-4 gap-3">
           {/* Large High-Res Logo */}
           <div className="relative w-full flex items-center justify-center py-2">
