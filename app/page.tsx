@@ -13,7 +13,8 @@ const toolCategories = [
         description: "Complete user management and authentication with beautiful pre-built components",
         url: "https://clerk.com",
         logo: "https://img.logo.dev/clerk.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-indigo-500/20 to-violet-500/20"
+        bgColor: "bg-gradient-to-br from-indigo-500/20 to-violet-500/20",
+        glowColor: "rgba(99,102,241,0.18)"
       }
     ]
   },
@@ -28,35 +29,40 @@ const toolCategories = [
         description: "Serverless PostgreSQL with autoscaling, branching, and bottomless storage",
         url: "https://neon.tech",
         logo: "https://img.logo.dev/neon.tech?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
+        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20",
+        glowColor: "rgba(6,182,212,0.18)"
       },
       {
         name: "Supabase",
         description: "Open-source Firebase alternative with PostgreSQL database and authentication",
         url: "https://supabase.com",
         logo: "https://img.logo.dev/supabase.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-emerald-500/20 to-teal-500/20"
+        bgColor: "bg-gradient-to-br from-emerald-500/20 to-teal-500/20",
+        glowColor: "rgba(52,211,153,0.18)"
       },
       {
         name: "Airtable",
         description: "Flexible database and spreadsheet hybrid for organizing work and data",
         url: "https://airtable.com",
         logo: "https://img.logo.dev/airtable.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20"
+        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20",
+        glowColor: "rgba(252,211,77,0.18)"
       },
       {
         name: "ChromaDB",
         description: "Vector database for embeddings and AI applications with semantic search",
         url: "https://trychroma.com",
         logo: "https://img.logo.dev/trychroma.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
+        bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20",
+        glowColor: "rgba(139,92,246,0.18)"
       },
       {
         name: "Prisma",
         description: "DB data-access layer using typesafe JS/TS instead of SQL",
         url: "https://prisma.io",
         logo: "https://img.logo.dev/prisma.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-slate-500/20 to-gray-500/20"
+        bgColor: "bg-gradient-to-br from-slate-500/20 to-gray-500/20",
+        glowColor: "rgba(100,116,139,0.18)"
       }
     ]
   },
@@ -71,28 +77,32 @@ const toolCategories = [
         description: "Workflow automation platform connecting apps and services with visual programming",
         url: "https://n8n.io",
         logo: "https://img.logo.dev/n8n.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-rose-500/20 to-pink-500/20"
+        bgColor: "bg-gradient-to-br from-rose-500/20 to-pink-500/20",
+        glowColor: "rgba(244,63,94,0.18)"
       },
       {
         name: "CrewAI",
         description: "Multi-agent AI workflows and orchestration framework for complex tasks",
         url: "https://crewai.com",
         logo: "https://img.logo.dev/crewai.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-blue-500/20 to-indigo-500/20"
+        bgColor: "bg-gradient-to-br from-blue-500/20 to-indigo-500/20",
+        glowColor: "rgba(59,130,246,0.18)"
       },
       {
         name: "OpenRouter",
         description: "Unified API gateway for accessing multiple AI models from different providers",
         url: "https://openrouter.ai",
         logo: "https://img.logo.dev/openrouter.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
+        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20",
+        glowColor: "rgba(6,182,212,0.18)"
       },
       {
         name: "Langflow",
         description: "Visual framework for building multi-agent and RAG applications with drag-and-drop components",
         url: "https://langflow.org",
         logo: "https://img.logo.dev/langflow.org?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20"
+        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20",
+        glowColor: "rgba(245,158,11,0.18)"
       }
     ]
   },
@@ -107,28 +117,32 @@ const toolCategories = [
         description: "AI-powered generative UI tool for creating React components with prompts",
         url: "https://v0.dev",
         logo: "https://img.logo.dev/v0.dev?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-slate-500/20 to-zinc-500/20"
+        bgColor: "bg-gradient-to-br from-slate-500/20 to-zinc-500/20",
+        glowColor: "rgba(148,163,184,0.18)"
       },
       {
         name: "Streamlit",
         description: "Python framework for building interactive data science and ML web applications",
         url: "https://streamlit.io",
         logo: "https://img.logo.dev/streamlit.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-red-500/20 to-rose-500/20"
+        bgColor: "bg-gradient-to-br from-red-500/20 to-rose-500/20",
+        glowColor: "rgba(239,68,68,0.18)"
       },
       {
         name: "APITemplate",
         description: "Automated image and PDF generation API from templates for dynamic content",
         url: "https://apitemplate.io",
         logo: "https://img.logo.dev/apitemplate.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-green-500/20 to-emerald-500/20"
+        bgColor: "bg-gradient-to-br from-green-500/20 to-emerald-500/20",
+        glowColor: "rgba(34,197,94,0.18)"
       },
       {
         name: "QuickChart",
         description: "Chart generation API creating beautiful visualizations from data instantly",
         url: "https://quickchart.io",
         logo: "https://img.logo.dev/quickchart.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-yellow-500/20 to-amber-500/20"
+        bgColor: "bg-gradient-to-br from-yellow-500/20 to-amber-500/20",
+        glowColor: "rgba(234,179,8,0.18)"
       }
     ]
   },
@@ -143,28 +157,32 @@ const toolCategories = [
         description: "Web scraping API that converts websites into clean markdown for AI applications",
         url: "https://firecrawl.dev",
         logo: "https://img.logo.dev/firecrawl.dev?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-orange-500/20 to-red-500/20"
+        bgColor: "bg-gradient-to-br from-orange-500/20 to-red-500/20",
+        glowColor: "rgba(249,115,22,0.18)"
       },
       {
         name: "LlamaParse",
         description: "Document parsing service for converting complex PDFs into structured data",
         url: "https://cloud.llamaindex.ai",
         logo: "https://img.logo.dev/llamaindex.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-indigo-500/20 to-purple-500/20"
+        bgColor: "bg-gradient-to-br from-indigo-500/20 to-purple-500/20",
+        glowColor: "rgba(129,140,248,0.18)"
       },
       {
         name: "Serper",
         description: "Fast and reliable Google Search API for retrieving search results programmatically",
         url: "https://serper.dev",
         logo: "https://img.logo.dev/serper.dev?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-sky-500/20 to-blue-500/20"
+        bgColor: "bg-gradient-to-br from-sky-500/20 to-blue-500/20",
+        glowColor: "rgba(14,165,233,0.18)"
       },
       {
         name: "Alpha Vantage",
         description: "Real-time and historical financial market data API for stocks and cryptocurrencies",
         url: "https://alphavantage.co",
         logo: "https://img.logo.dev/alphavantage.co?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-teal-500/20 to-cyan-500/20"
+        bgColor: "bg-gradient-to-br from-teal-500/20 to-cyan-500/20",
+        glowColor: "rgba(20,184,166,0.18)"
       }
     ]
   },
@@ -179,14 +197,16 @@ const toolCategories = [
         description: "Frontend cloud platform for deploying and hosting modern web applications",
         url: "https://vercel.com",
         logo: "https://img.logo.dev/vercel.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-gray-500/20 to-slate-500/20"
+        bgColor: "bg-gradient-to-br from-gray-500/20 to-slate-500/20",
+        glowColor: "rgba(148,163,184,0.18)"
       },
       {
         name: "Railway",
         description: "Infrastructure platform for deploying apps with instant provisioning and scaling",
         url: "https://railway.app",
         logo: "https://img.logo.dev/railway.app?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-purple-500/20 to-fuchsia-500/20"
+        bgColor: "bg-gradient-to-br from-purple-500/20 to-fuchsia-500/20",
+        glowColor: "rgba(168,85,247,0.18)"
       }
     ]
   },
@@ -201,7 +221,8 @@ const toolCategories = [
         description: "Open-source LLM observability platform for tracing, evals, and prompt management",
         url: "https://langfuse.com",
         logo: "https://img.logo.dev/langfuse.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
+        bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20",
+        glowColor: "rgba(139,92,246,0.18)"
       }
     ]
   }
@@ -255,6 +276,7 @@ export default function Home() {
                       description={tool.description}
                       url={tool.url}
                       logo={tool.logo}
+                      glowColor={tool.glowColor}
                     />
                   ))}
                 </div>
