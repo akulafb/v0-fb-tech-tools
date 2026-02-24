@@ -86,6 +86,13 @@ const toolCategories = [
         url: "https://openrouter.ai",
         logo: "https://img.logo.dev/openrouter.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
+      },
+      {
+        name: "Langflow",
+        description: "Visual framework for building multi-agent and RAG applications with drag-and-drop components",
+        url: "https://langflow.org",
+        logo: "https://img.logo.dev/langflow.org?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20"
       }
     ]
   },
