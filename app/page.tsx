@@ -202,6 +202,13 @@ const toolCategories = [
         url: "https://langfuse.com",
         logo: "https://img.logo.dev/langfuse.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
+      },
+      {
+        name: "Grafana",
+        description: "Open-source analytics and monitoring platform for visualizing metrics, logs, and traces",
+        url: "https://grafana.com",
+        logo: "https://img.logo.dev/grafana.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-orange-500/20 to-amber-500/20"
       }
     ]
   }
