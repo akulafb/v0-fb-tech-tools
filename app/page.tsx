@@ -1,5 +1,5 @@
 import { ToolCard } from "@/components/tool-card"
-import { Sparkles, Database, Workflow, Palette, Cloud, Code, Lock, Activity } from "lucide-react"
+import { Database, Workflow, Palette, Cloud, Code, Lock, Activity } from "lucide-react"
 
 const toolCategories = [
   {
@@ -222,7 +222,7 @@ export default function Home() {
         <div className="container mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="flex items-center gap-5 lg:gap-6">
             <div className="flex h-16 w-16 lg:h-20 lg:w-20 shrink-0 items-center justify-center rounded-3xl bg-gradient-to-br from-primary to-accent shadow-2xl shadow-primary/30">
-              <Sparkles className="h-8 w-8 lg:h-10 lg:w-10 text-primary-foreground" />
+              <span className="text-6xl lg:text-8xl">🧰</span>
             </div>
             <h1 className="text-6xl font-black tracking-tight text-foreground sm:text-7xl lg:text-8xl">
               FB's Tech Tools
