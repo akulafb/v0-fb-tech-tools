@@ -129,6 +129,13 @@ const toolCategories = [
         url: "https://quickchart.io",
         logo: "https://img.logo.dev/quickchart.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-yellow-500/20 to-amber-500/20"
+      },
+      {
+        name: "Stitch",
+        description: "Google's AI design platform for creating and iterating on UI designs with generative AI",
+        url: "https://stitch.google",
+        logo: "https://img.logo.dev/google.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-blue-500/20 to-sky-500/20"
       }
     ]
   },
