@@ -134,7 +134,7 @@ const toolCategories = [
         name: "Stitch",
         description: "Google's AI design platform for creating and iterating on UI designs with generative AI",
         url: "https://stitch.google",
-        logo: "https://img.logo.dev/stitch.google?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        logo: "/stitch-logo.png",
         bgColor: "bg-gradient-to-br from-blue-500/20 to-sky-500/20"
       }
     ]
