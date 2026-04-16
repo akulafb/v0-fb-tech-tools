@@ -136,6 +136,13 @@ const toolCategories = [
         url: "https://stitch.google",
         logo: "/stitch-logo.png",
         bgColor: "bg-gradient-to-br from-blue-500/20 to-sky-500/20"
+      },
+      {
+        name: "Gamma",
+        description: "AI-powered presentation and document creation tool for building polished decks and web pages instantly",
+        url: "https://gamma.app",
+        logo: "https://img.logo.dev/gamma.app?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-violet-500/20 to-pink-500/20"
       }
     ]
   },
