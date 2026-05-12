@@ -143,6 +143,13 @@ const toolCategories = [
         url: "https://gamma.app",
         logo: "https://img.logo.dev/gamma.app?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-violet-500/20 to-pink-500/20"
+      },
+      {
+        name: "Cursor",
+        description: "AI-powered code editor built on VS Code that writes, edits, and understands your codebase",
+        url: "https://cursor.com",
+        logo: "https://img.logo.dev/cursor.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-sky-500/20 to-blue-500/20"
       }
     ]
   },
