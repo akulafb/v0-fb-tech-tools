@@ -67,20 +67,6 @@ const toolCategories = [
     color: "from-purple-500/20 to-pink-500/20",
     tools: [
       {
-        name: "n8n",
-        description: "Workflow automation platform connecting apps and services with visual programming",
-        url: "https://n8n.io",
-        logo: "https://img.logo.dev/n8n.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-rose-500/20 to-pink-500/20"
-      },
-      {
-        name: "CrewAI",
-        description: "Multi-agent AI workflows and orchestration framework for complex tasks",
-        url: "https://crewai.com",
-        logo: "https://img.logo.dev/crewai.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-blue-500/20 to-indigo-500/20"
-      },
-      {
         name: "OpenRouter",
         description: "Unified API gateway for accessing multiple AI models from different providers",
         url: "https://openrouter.ai",
@@ -88,11 +74,11 @@ const toolCategories = [
         bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
       },
       {
-        name: "Langflow",
-        description: "Visual framework for building multi-agent and RAG applications with drag-and-drop components",
-        url: "https://langflow.org",
-        logo: "https://img.logo.dev/langflow.org?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-amber-500/20 to-orange-500/20"
+        name: "Conductor",
+        description: "Microservices and workflow orchestration platform for building scalable AI-powered processes",
+        url: "https://conductor-oss.org",
+        logo: "https://img.logo.dev/conductor-oss.org?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-emerald-500/20 to-teal-500/20"
       },
       {
         name: "Cursor",
