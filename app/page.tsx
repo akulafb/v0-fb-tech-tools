@@ -75,9 +75,9 @@ const toolCategories = [
       },
       {
         name: "Conductor",
-        description: "Microservices and workflow orchestration platform for building scalable AI-powered processes",
-        url: "https://conductor-oss.org",
-        logo: "https://img.logo.dev/conductor-oss.org?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        description: "Run multiple Claude Code agents in parallel, each in its own isolated workspace",
+        url: "https://conductor.build",
+        logo: "https://img.logo.dev/conductor.build?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-emerald-500/20 to-teal-500/20"
       },
       {
