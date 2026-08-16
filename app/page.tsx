@@ -86,6 +86,13 @@ const toolCategories = [
         url: "https://cursor.com",
         logo: "https://img.logo.dev/cursor.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-sky-500/20 to-blue-500/20"
+      },
+      {
+        name: "Antigravity",
+        description: "Google's agentic development platform where AI agents plan, write, and verify code across editor, terminal, and browser",
+        url: "https://antigravity.google",
+        logo: "https://img.logo.dev/antigravity.google?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-blue-500/20 to-indigo-500/20"
       }
     ]
   },
