@@ -93,6 +93,13 @@ const toolCategories = [
         url: "https://antigravity.google",
         logo: "https://img.logo.dev/antigravity.google?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-blue-500/20 to-indigo-500/20"
+      },
+      {
+        name: "Claude Code",
+        description: "Anthropic's agentic coding tool that lives in your terminal and edits code across your entire codebase",
+        url: "https://claude.com/claude-code",
+        logo: "https://img.logo.dev/claude.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-orange-500/20 to-amber-500/20"
       }
     ]
   },
