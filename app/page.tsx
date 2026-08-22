@@ -105,7 +105,7 @@ const toolCategories = [
         name: "Orca",
         description: "Agent development environment for orchestrating multiple coding agents in parallel with isolated workspaces",
         url: "https://onorca.dev",
-        logo: "https://img.logo.dev/onorca.dev?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gxrqTlSSmfISFYl4nZlnbiQkPMzxpb.png",
         bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
       }
     ]
