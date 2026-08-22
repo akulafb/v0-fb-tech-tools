@@ -100,6 +100,13 @@ const toolCategories = [
         url: "https://claude.com/claude-code",
         logo: "https://img.logo.dev/claude.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-orange-500/20 to-amber-500/20"
+      },
+      {
+        name: "Orca",
+        description: "Agent development environment for orchestrating multiple coding agents in parallel with isolated workspaces",
+        url: "https://onorca.dev",
+        logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gxrqTlSSmfISFYl4nZlnbiQkPMzxpb.png",
+        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
       }
     ]
   },
@@ -224,13 +231,6 @@ const toolCategories = [
         logo: "https://img.logo.dev/langfuse.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-violet-500/20 to-purple-500/20"
       },
-      {
-        name: "Grafana",
-        description: "Open-source analytics and monitoring platform for visualizing metrics, logs, and traces",
-        url: "https://grafana.com",
-        logo: "https://img.logo.dev/grafana.com?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
-        bgColor: "bg-gradient-to-br from-orange-500/20 to-amber-500/20"
-      }
     ]
   }
 ]
