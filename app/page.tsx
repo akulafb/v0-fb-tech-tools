@@ -100,6 +100,13 @@ const toolCategories = [
         url: "https://claude.com/claude-code",
         logo: "https://img.logo.dev/claude.ai?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
         bgColor: "bg-gradient-to-br from-orange-500/20 to-amber-500/20"
+      },
+      {
+        name: "Orca",
+        description: "Agent development environment for orchestrating multiple coding agents in parallel with isolated workspaces",
+        url: "https://onorca.dev",
+        logo: "https://img.logo.dev/onorca.dev?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
       }
     ]
   },
