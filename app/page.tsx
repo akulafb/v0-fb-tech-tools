@@ -107,6 +107,13 @@ const toolCategories = [
         url: "https://onorca.dev",
         logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gxrqTlSSmfISFYl4nZlnbiQkPMzxpb.png",
         bgColor: "bg-gradient-to-br from-cyan-500/20 to-blue-500/20"
+      },
+      {
+        name: "n8n",
+        description: "Workflow automation platform for connecting apps, APIs, and AI agents with low-code workflows",
+        url: "https://n8n.io",
+        logo: "https://img.logo.dev/n8n.io?token=pk_Qzgj49QfRWuBhsTm3deRKQ",
+        bgColor: "bg-gradient-to-br from-orange-500/20 to-red-500/20"
       }
     ]
   },
